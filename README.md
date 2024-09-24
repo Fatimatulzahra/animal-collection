@@ -30,4 +30,4 @@ Here's a walkthrough of implemented required features:
 
 GIF created with LiceCap
 
-
+**Challenges:** Since it was my second time working with react, I had to revisit the concepts taught in class multiple times to put the project together, but it was interesting to learn how everything came together using props and components!
