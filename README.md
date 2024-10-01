@@ -2,7 +2,7 @@
 
 Submitted by: **Fatimah Badmos**
 
-This web app: **contains information and links for the different levels and parts of DSA**
+This web app: **contains flashcards that helps you learn collective nouns of animals.**
 
 Time spent: **4** hours spent in total
 
