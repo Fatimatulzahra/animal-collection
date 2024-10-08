@@ -46,24 +46,24 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; /* Hides the back side when not flipped */
+  backface-visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #333;
+  border: 2px solid #e117a1;
   border-radius: 10px;
   background-color: #f9f9f9;
 }
 
 .flashcard-front {
-  background-color: lightpink; /* Front color */
+  background-color: lightpink; 
   color: white;
 }
 
 .flashcard-back {
-  background-color: #333; /* Back color */
+  background-color: #4f1b08; 
   color: white;
-  transform: rotateY(180deg); /* Initially rotate the back to be hidden */
+  transform: rotateY(180deg); 
 }
 
 button {
@@ -76,5 +76,58 @@ button {
 }
 
 button:active {
-  background-color: lightseagreen;
+  background-color: #4CAF50;
+}
+
+.input-section {
+  margin-top: 20px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  background-color: lightpink;
+  border: 2px solid darkred;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+
+.input-section button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-section button:hover {
+  background-color: palevioletred;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the buttons */
+}
+
+.navigation-buttons button {
+  padding: 10px 20px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background-color: palevioletred;
 }
