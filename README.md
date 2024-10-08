@@ -4,9 +4,9 @@ Submitted by: **Fatimah Badmos**
 
 This web app: **contains flashcards that helps you learn collective nouns of animals.**
 
-Time spent: **4** hours spent in total
+Time spent: **5** hours spent in total
 
-## Required Features
+## Required Features for Project 2
 The following **required** functionality is completed:
 
 - [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
